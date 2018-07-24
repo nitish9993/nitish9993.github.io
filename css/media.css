@@ -1,0 +1,762 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+#1	header
+	#1.1 nav
+	#1.2 banar
+#2	after-banar
+#3	about-me
+#4	work-experience
+#5	portfolio
+#6	technical-skill
+#7	some-of-my-work
+#8	pricing-plan
+#9	testimonial
+#10	hire-me
+#11	footer
+
+
+
+
+--------------------------------------------------------------*/
+/*site-loder*/
+@media only screen and (max-width: 1100px) {
+	.loder-middle {
+		left: 37%;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.loder-middle {
+		left: 34%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.loder-middle {
+		left: 30%;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.loder-middle {
+		left: 26%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.loder-middle {
+		left: 18%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.loder-middle {
+		left: 11%;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+	.loder-middle {
+		left: 7%;
+	}
+}
+@media only screen and (max-width: 300px) {
+	.loder-middle {
+		left: 0%;
+	}
+}
+
+
+
+/******** miscellaneous **********/
+@media only screen and (max-width: 400px) {
+	.section-header h2 {
+		font-size: 22px;
+	}
+
+	.section-header h2 i {
+		left: -30px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#1 header
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	header .navbar-default .navbar-nav a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+	header {
+		padding-bottom: 100px;
+	}
+
+	header .container {
+		padding: 0;
+	}
+
+	header #navbar {
+		padding: 0;
+	}
+
+	header .navbar-default .navbar-nav a {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	header .header-after {
+		background: url(../images/me-small.png) no-repeat;
+		width: 335px;
+		height: 287px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#1.1 nav
+--------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	header .navbar-header button {
+		margin-right: 30px;
+	}
+
+	header #navbar {
+		background-color: #000;
+		position: absolute;
+		width: 103%;
+		z-index: 100;
+		overflow: hidden;
+		margin: 0;
+		border: 0;
+	}
+
+	header #navbar ul {
+		margin: 0;
+	}
+
+	header .navbar-default .navbar-nav a {
+		text-align: left;
+		padding: 10px;
+
+	}
+
+	header .navbar-default .navbar-nav a:hover {
+		background: blue;
+	}
+}
+
+
+
+
+/*--------------------------------------------------------------
+#1.2 banar
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	header .banar h1 {
+		font-size: 25px;
+	}
+
+	header .banar h1 span {
+		font-size: 35px;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	header .banar {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	header .banar .tagline {
+		text-shadow: 1px 1px 1px #fff;
+	}
+}
+
+@media only screen and (max-width: 521px) {
+	header .banar h1 {
+		font-size: 20px;
+		line-height: 45px;
+	}
+
+	header .banar h1 span {
+		font-size: 25px;
+	}
+
+	header .banar a {
+		font-size: 14px;
+		padding: 6px 10px 6px 40px;
+	}
+
+	header .banar a i {
+		height: 32px;
+		width: 32px;
+		line-height: 32px;
+	}
+
+}
+
+
+/*--------------------------------------------------------------
+#2	after-banar
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.after-banar ul a:hover {
+		height: 275px !important;
+		border: 1px solid #3786ef;
+		margin-top: -149px !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.after-banar {
+		padding-top: 18px;
+		padding-bottom: 18px;
+		height: 182px !important;
+	}
+
+	.after-banar .col {
+		padding: 0;
+	}
+
+	.after-banar ul p {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.after-banar {
+		height: 600px !important;
+	}
+
+	.after-banar .col {
+		
+	}
+
+	.after-banar ul a {
+		display: inline;
+	}
+
+	.after-banar ul a:hover {
+		height: inherit !important;
+		margin-bottom: 0 !important;
+		border: 0 !important;
+	}
+
+	.after-banar ul li a:hover i {
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+		font-size: 36px;
+	}
+
+	.after-banar ul li a:hover p {
+		display: none;
+	}
+
+}
+
+
+
+/*--------------------------------------------------------------
+#3	about-me
+--------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	.about-me .left {
+		width: 20%;
+		text-align: left;
+		padding-right: 0px;
+	}
+
+	.about-me .right {
+		width: 20%;
+		padding-left: 0px;
+		text-align: right;
+	}
+
+	.about-me .middle {
+		width: 60%;
+	}
+
+	.about-me .left li p:first-child,
+	.about-me .right li p:first-child {
+		font-size: 15px;
+	}
+
+	.about-me .left li p:last-child,
+	.about-me .right li p:last-child {
+		font-size: 15px;
+	}
+
+	.about-me .row:last-child p {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 544px) {
+	.about-me .left {
+		width: 45%;
+	}
+
+	.about-me .right {
+		width: 45%;
+	}
+
+	.about-me .middle {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 544px) {
+	.about-me .left {
+		width: 100%;
+	}
+
+	.about-me .right {
+		width: 100%;
+		text-align: left;
+		padding-left: 15px;
+	}
+
+	.about-me .left p {
+		margin-bottom: 10px !important;
+	}
+
+	.about-me .right p {
+		margin-bottom: 10px !important;
+	}
+
+	.about-me ul li {
+		border-bottom: 1px solid #000;
+		padding: 15px 0;
+	}
+
+	.about-me .right ul li:last-child {
+		border-bottom: 0;
+	}
+}
+
+
+@media only screen and (max-width: 498px) {
+	.about-me .row a {
+		display: block !important;
+		width: 80%;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	.about-me .row a {
+		width: 95%;
+		margin-bottom: 15px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#4	work-experience
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	.work-experience .work-list h3 i,
+	.education-diploma .work-list h3 i {
+		right: -78px;
+	}
+
+	.work-experience .right h3 i,
+	.education-diploma .right h3 i  {
+		left: -75px;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 625px) {
+	.work-experience .work-list h3,
+	.education-diploma .work-list h3 {
+		font-size: 14px;
+	}
+
+	.work-experience .work-list h3:after,
+	.education-diploma .work-list h3:after {
+		right: -36px;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 545px) {
+	.work-experience ul:before,
+	.education-diploma ul:before {
+		content: "";
+		display: none;
+	}
+
+	.work-experience ul li .col,
+	.education-diploma ul li .col {
+		width: 100%;
+		padding: 0;
+	}
+
+	.work-experience .work-list .thumbnail,
+	.education-diploma .work-list .thumbnail {
+		text-align: left;
+	}
+
+	.work-experience .work-list h3,
+	.education-diploma .work-list h3 {
+		margin-left: -16px;
+	}
+
+	.work-experience .work-list h3 i,
+	.education-diploma .work-list h3 i {
+		display: none;
+	}
+
+	.work-experience .work-list h3:after,
+	.education-diploma .work-list h3:after {
+		display: none;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#5	previous-projects
+--------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	.previous-projects {
+		background: none;
+		background-color: #1c1b1c;
+	}
+
+	.previous-projects .row div.col:first-child,
+	.previous-projects .row div.col:nth-child(2) {
+		margin-bottom: 80px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.previous-projects .icon {
+		width: 100px;
+		height: 100px;
+		line-height: 110px;
+		border: 1px solid #fff;
+	}
+
+	.previous-projects i {
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+		font-size: 30px;
+	}
+
+	.previous-projects .icon + p {
+		font-size: 30px;
+		margin-top: 20px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#6	technical-skill
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.technical-skill span {
+		left: 34%;
+		top: 20%;
+	}
+
+	.technical-skill .kata {
+		left: 34%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.technical-skill span {
+		left: 33%;
+	}
+
+	.technical-skill .kata {
+		left: 33%;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.technical-skill {
+		background: none;
+		background-color: #1c1b1c;
+	}
+
+	.technical-skill span {
+		left: 40%;
+	}
+
+	.technical-skill .kata {
+		left: 40%;
+	}
+
+	.technical-skill .row .col:first-child,
+	.technical-skill .row .col:nth-child(2) {
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.technical-skill span {
+		left: 38%;
+	}
+	.technical-skill .kata {
+		left: 38%;
+	}
+}
+
+@media only screen and (max-width: 545px) {
+	.technical-skill span {
+		left: 34%;
+	}
+
+	.technical-skill .kata {
+		left: 34%;
+	}
+}
+
+@media only screen and (max-width: 456px) {
+	.technical-skill span {
+		font-size: 18px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		left: 39%;
+	}
+
+	.technical-skill .kata {
+		width: 50px;
+		height: 50px;
+		left: 39%;
+		background-color: transparent;
+	}
+
+	.technical-skill .kata-before {
+		  border-left: 7px solid transparent;
+		  border-right: 7px solid transparent;
+		  border-top: 30px solid #909090;
+		  position: absolute;
+		  left: -10px;
+		  top: 8px;
+	}
+	
+	.technical-skill h3 {
+		font-size: 14px;
+	}
+
+	.technical-skill canvas {
+		width: 120px !important;
+		height: 120px !important;
+	}
+
+}
+
+@media only screen and (max-width: 456px) {
+	.technical-skill span {
+		left: 37%;
+	}
+}
+
+@media only screen and (max-width: 317px) {
+	.technical-skill span {
+		left: 35%;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#7	some-of-my-work
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.some-of-my-work .last-row .col {
+		padding: 0 15px;
+	}
+
+	.some-of-my-work .last-row .col {
+		margin-bottom: 50px;
+	}
+
+	.some-of-my-work .last-row .col:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+@media only screen and (max-width: 446px) {
+	.some-of-my-work .tab-content .col a {
+		left: -100%;
+	}
+}
+
+@media only screen and (max-width: 558px) {
+	.some-of-my-work .tab-content .col:hover a {
+		left: 29%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.some-of-my-work .tab-content .col:hover a {
+		left: 27%;
+	}
+}
+
+@media only screen and (max-width: 351px) {
+	.some-of-my-work .tab-content .col:hover a {
+		left: 21%;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#8	pricing-plan
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.pricing-plan .row .col:first-child,
+	.pricing-plan .row .col:nth-child(2) {
+		margin-bottom: 80px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.pricing-plan .row .col {
+		width: 100%;
+	}
+
+	.pricing-plan .row .col {
+		margin-bottom: 80px;
+	}
+
+	.pricing-plan .row .col:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#9	testimonial
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.testimonial .col div {
+		width: 213px;
+		height: 212px;
+	}
+
+	.testimonial .col div h3 {
+		font-size: 20px;
+		margin-top: -10px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.testimonial .col div {
+		width: 158px;
+		height: 156px;
+		padding: 60px 10px;
+	}
+
+	.testimonial .col div h3 {
+		margin-top: -20px;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.testimonial img {
+		margin: 0 auto;
+	}
+
+	.testimonial .col {
+		margin-bottom: 80px;
+	}
+
+	.testimonial .col:last-child {
+		margin-bottom: 0;
+	}
+
+	.testimonial .col a:hover img {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+}
+
+
+
+/*--------------------------------------------------------------
+#10	hire-me
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	.hire-me .contact-info {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.hire-me .contact-info {
+		padding-left: 15px;
+		margin-bottom: 40px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#11	footer
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	footer p {
+		padding-left: 0;
+	}
+
+	footer ul li a {
+		color: #fff;
+		font-size: 35px;
+		margin-right: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 529px) {
+	footer p {
+		padding-left: 0;
+		font-size: 15px !important;
+		line-height: 35px;
+	}
+
+	footer .copyright {
+		width: 110%;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	footer ul li a {
+		font-size: 25px;
+		margin-right: 20px;
+	}
+}
+
