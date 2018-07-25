@@ -20,11 +20,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: #302f2f;
 }
-body > div {
+/* body > div {
   transform: translate3d(0,0,0);
   -webkit-transform: translate3d(0,0,0);
   -webkit-overflow-scrolling: touch;
-}
+} */
 
 ul {
 	list-style: none;
